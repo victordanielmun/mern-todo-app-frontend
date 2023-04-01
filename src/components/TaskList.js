@@ -5,6 +5,8 @@ import { toast } from "react-toastify";
 import { URL } from "../App";
 import { Pulsar } from "@uiball/loaders";
 import axios from "axios";
+import {FaHeart} from "react-icons/fa"
+
 
 const TaskList = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -226,6 +228,10 @@ const TaskList = () => {
           )}
         </>
       )}
+      <hr/>
+      <span>
+    Made with <FaHeart color="red" /> by <a href="https://www.linkedin.com/in/victordanielmun/" target="_blank">Victordanielmun</a>
+</span>
     </>
   );
 };
